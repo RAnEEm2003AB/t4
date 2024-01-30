@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c7c2c2;
+  }
+  
+  .data {
+    width: 400px;
+    padding: 30px;  
+    margin: auto;
+    background-color: #f1efef;
+    box-shadow: 5px 5px 5px rgba(83, 83, 83, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .inputs {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 10px;
+    border:  #f8eaea;
+    border-radius: 2px ;
+  }
+  
+  input[type="submit"] {
+    border: none;
+    border-radius:2px ;
+    padding: 15px;
+    background-color: #1fac23;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .test {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white#fff;
+    border: 1px solid #e7e0e0;
+    border-radius: 2px;
+    padding: 10px;
+  }
+  
+  .myCheckbox {
+    margin-right: 5px;
+  }
+  
+  .line{
+    text-decoration: line-through;
+  }
